@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    justify-content: center;
+   margin: 100px;
+}
+.container{
+    width: 340px;
+    border: 1px solid #C4C4C4;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    background-color: #f5f5f5;
+}
+.yellow{
+    width: 100%;
+    height: 30px; ;
+background-color: yellow;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+h1{
+    margin: 10px;
+    font-size: 26px;
+align-self: center;
+    font-weight: bold;
+    font-family:Roboto ;
+}
+.content{
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.sort-button{
+    width: 25px;
+    border: 0;
+    height: 15px;
+    background-image: url(./../img/Group\ 93\ \(1\).png);
+    align-self: flex-end;
+    background-position: center;
+    margin: 5px 20px;
+}
+.sort-button:hover{
+background-image: url(./../img/Group\ 73.png);
+}
+ul{
+    list-style: none;
+    width: 100%;
+    color: black;
+}
+input{
+    height: 30px;
+    width: 200px;
+    border: 0;
+    justify-self: center;
+background-color: #f5f5f5;
+
+}
+.list{
+    width: 280px;
+    border: 3px solid #C4C4C4;
+background-color: #f5f5f5;
+align-self: center;
+display: flex;
+flex-direction: column;
+border-radius: 10px;
+}
+
+input:focus {
+    border: none;         
+    outline: none;       
+    background: none;    
+    box-shadow: none;     
+}
+
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.input > button{
+    align-self:center;
+}
+.list-remove{
+    height: 20px;
+    width: 20px;
+background-color: #f5f5f5;
+border: 0;
+background-image: url(./../img/Group\ 77.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+.list-remove:hover{
+    background-image: url(./../img/Group\ 70\ \(1\).png);
+}
+li{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+}
+
+.div-add >span{
+margin: auto;
+}
+.div-add{
+    margin: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: #833AE0;
+    border-radius: 20px;
+    align-self: center;
+    color:white;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+}
+.div-add > button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #9953F1;
+    border: 0;
+    color:white;
+    display: none;
+}
+.span-add{
+    margin: 10px 40px;
+
+}
+.boxShadow{
+    box-shadow: 8px 8px 32px #e1e1e1;
+  }
+  .drag{
+    opacity: 0;
+  }
+
+ 
+.add-button {
+    height: 40px;
+    width: 150px;
+    background-color:#833AE0;  
+    color: white;            
+    border: none;              
+    padding: 10px 0px;         
+    text-align: center;        
+    text-decoration: none;     
+    display: inline-flex;       
+    align-items: center;        
+    justify-content: flex-start;
+    font-size: 16px;            
+    border-radius: 35px;        
+    cursor: pointer;          
+    transition: background-color 0.3s, transform 0.3s; 
+    margin: 20px auto;        
+}
+
+
+.plus-icon {
+    background-color:#9953F1; 
+    color: white;               
+    border-radius: 50%;         
+    width: 40px;                
+    height: 40px;               
+    display: flex;
+    justify-content: center;    
+    align-items: center;        
+    margin-right: 30px;         
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);  
+}
+
+
+.add-button:hover {
+    background-color:#833AE0;  
+    transform: scale(1.05);     
+}
+
+
+.add-button:active {
+    background-color:#9953F1;;  
+    transform: scale(0.98);     
+}
