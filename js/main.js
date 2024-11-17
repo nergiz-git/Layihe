@@ -1,7 +1,7 @@
 const btnButton = document.querySelector('.btn > button');
 const add = document.querySelector('.btn');
 const ul = document.querySelector('ul');
-const input = document.querySelector('input')git c
+const input = document.querySelector('input')
 let sor = true;
 let data = []
 add.addEventListener('dblclick', function e() {
@@ -43,7 +43,7 @@ add.addEventListener('dblclick', function e() {
     }
 
 })
-btnButton.addEventListener('click', function ev() {
+btnButton.addEventListener('click', function e() {
     input.value = '';
     inputli.style.display = 'flex'
     add.querySelector('span').textContent = 'Add';
